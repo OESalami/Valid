@@ -5,6 +5,7 @@ EDIT ON
 <head>
   <meta charset="UTF-8">
   <title>Val's Day</title>
+  <link rel="stylesheet" href="style.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
 
   <style>
@@ -78,21 +79,29 @@ p {
   </style>
 </head>
 <body>
+  <!-- THANK YOU PAGE -->
+  <div class="container thanks-container" id="grateful">
+    <div class="gif">
+        <img src="./gif/thanks.gif" alt="Thanks">
+    </div>
+    <p>I'm so grateful to have you by my side. Forever Valentine, here we come!..</p>
+</div>
 
+<div id="main-form">
 
 <div class="paper heart">
 </div>
 <div class="paper red">
-    <video src="./images/vid4.mp4" width="200px" controls></video>
+    <video src="" width="200px" controls></video>
 </div>
 <div class="paper red">
-    <video src="./images/vid3.mp4" width="200px" controls></video>
+    <video src="" width="200px" controls></video>
 </div>
 <div class="paper red">
-    <video src="./images/vid2.mp4" width="200px" controls></video>
+    <video src="" width="200px" controls></video>
 </div>
 <div class="paper red">
-    <video src="./images/vid1.mp4" width="200px" controls></video>
+    <video src="" width="200px" controls></video>
 </div>
 <div class="paper image">
   <p> and I fallen in</p>
@@ -126,9 +135,19 @@ p {
 
 </div>
 
+</div>
 
 <!-- javascript file -->
   <script>
+
+ // LOADER SCRIPT
+ setTimeout(() => {
+        const grateful = document.getElementById('grateful').style.display = 'none';
+        const mainForm = document.getElementById('main-form').style.display = 'block';
+    }, 7000);
+
+// PAPER SCRIPT
+
 let highestZ = 1;
 class Paper {
   holdingPaper = false;

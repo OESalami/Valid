@@ -342,61 +342,6 @@
     display: none;
   }
 
-  /* FORM PAGE STYLING */
-  .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #FFC0CB;
-    height: 100vh;
-  }
-
-  .form-container {
-    padding: 1rem;
-  }
-
-  .phone-intro{
-    width: 25rem;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    color: #504d4d;
-    margin-left: 1.5rem;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    width: 25rem;
-    margin-top: 2rem;
-  }
-
-  form input {
-    padding: 1rem;
-    border-radius: 7px;
-    border: 1px solid rgb(223, 140, 140);
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: rgb(54, 53, 53);
-    transition: 0.3s ease;
-    cursor: pointer;
-    width: 80%;
-    outline: none;
-  }
-
-  .send-btn {
-    padding: 15px 25px;
-    background: rgb(7, 146, 7);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
   /* THANKS CONTAINER STYLING */
   .thanks-container {
     display: flex;
